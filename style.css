@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #a644e7fd;
+  color: black;
+}
+
+.box {
+  background-color: white;
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 5px;
+  height: 500px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 2.4rem 0 1rem;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 90px;
+  height: 80;
+}
+
+/* Tentando fazer uma animação */
+input {
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  border-bottom: dashed purple 1px;
+  display: block;
+  padding: 10px;
+  margin-left: 35px;
+  width: 250px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+input:focus ~ label {
+  transform: translateY(-20px);
+  font-size: 10px;
+}
+
+.s,
+.t {
+  position: relative;
+}
+
+label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  transition: 0.3s;
+  color: purple;
+}
+
+/* Navegação */
+.btn {
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 60px;
+  padding: 30px;
+  width: 200px;
+  opacity: 0.2;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: black;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.esq {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.new {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  text-decoration: none;
+}
+
+.new:hover {
+  color: black;
+}
+
+.esq:hover {
+  color: black;
+}
